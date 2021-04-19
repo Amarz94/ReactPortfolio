@@ -7,20 +7,20 @@ export default  class Resume extends Component {
   render() {
 
     return (
-      
+
       <section id="resume">
 
          <div className="row education">
            
             <div className="three columns header-col">
-               <h1>Education</h1>
+               <h1 style={{fontWeight: "bold", fontSize: "25px"}}><span>Education</span></h1>
             </div>
 
             <div className="nine columns main-col">
                 <div className="row item">
                     <div className="twelve columns">
                       <h3>Uconn Coding Bootcamp</h3>
-                      <p className="date">
+                      <p style={{fontWeight: "bold", fontSize: "17px"}} className="date">
                       Full-Stack Developer Course
                       | October 2020 - April 2021</p>
                       <p>
@@ -33,7 +33,7 @@ export default  class Resume extends Component {
 
         <div className="row work">
             <div className="three columns header-col">
-               <h1>Work</h1>
+               <h1 style={{fontWeight: "bold", fontSize: "25px"}}><span>Work</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -41,7 +41,7 @@ export default  class Resume extends Component {
                 <div className="row item">
                     <div className="twelve columns">
                       <h3>U.S Army Reserve</h3>
-                      <p className="date">
+                      <p style={{fontWeight: "bold", fontSize: "17px"}} className="date">
                       Paralegal Specialist |
                       April 2015 - Present</p>
                       <p>
@@ -53,7 +53,7 @@ export default  class Resume extends Component {
                 <div className="row item">
                     <div className="twelve columns">
                       <h3>The Capital Grille</h3>
-                      <p className="date">
+                      <p style={{fontWeight: "bold", fontSize: "17px"}}className="date">
                       Server |
                       April 2018 - March 2020</p>
                       <p>
@@ -68,18 +68,18 @@ export default  class Resume extends Component {
          <div className="row skill">
 
             <div className="three columns header-col">
-              <h1>Skills</h1>
+              <h1 style={{fontWeight: "bold", fontSize: "25px"}}><span>Skills</span></h1>
             </div>
 
             <div className="nine columns main-col">
                 <div className="row item">
                     <div className="twelve columns">
                       
-                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}} icon={['fab', 'react']} /> 
-                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'html5']} />
-                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'css3']} />
-                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'js']} />
-                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'node-js']} />
+                      <FontAwesomeIcon style={{fontSize:"100px"}} icon={['fab', 'react']} /> 
+                      <FontAwesomeIcon style={{marginLeft: "15px", fontSize:"100px"}}icon={['fab', 'html5']} />
+                      <FontAwesomeIcon style={{marginLeft: "15px", fontSize:"100px"}}icon={['fab', 'css3']} />
+                      <FontAwesomeIcon style={{marginLeft: "15px", fontSize:"100px"}}icon={['fab', 'js']} />
+                      <FontAwesomeIcon style={{marginLeft: "15px", fontSize:"100px"}}icon={['fab', 'node-js']} />
 
                     </div>
                 </div>

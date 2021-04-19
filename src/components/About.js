@@ -18,8 +18,8 @@ export default class About extends Component {
 
             <div className="nine columns main-col">
 
-               <h2>About Me</h2>
-               <p>I am 27 years old and got started in web development after completeing the Full-Stack Developer Bootcamp course from UCONN. I am currently enlisted as a sergeant in the U.S. Army Reserve.</p>
+               <h2 style={{fontWeight: "bold", fontSize: "25px"}}>About Me</h2>
+               <p style={{fontWeight: "bold", fontSize: "17px"}}>I am 27 years old and got started in web development after completeing the Full-Stack Developer Bootcamp course from UCONN. I am currently enlisted as a sergeant in the U.S. Army Reserve.</p>
 
                <div className="row">
 
