@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
 export default  class Resume extends Component {
+
   render() {
 
     return (
+      
       <section id="resume">
 
          <div className="row education">
