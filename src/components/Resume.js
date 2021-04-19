@@ -8,10 +8,11 @@ export default  class Resume extends Component {
       <section id="resume">
 
          <div className="row education">
-
+           
             <div className="three columns header-col">
                <h1>Education</h1>
             </div>
+
             <div className="nine columns main-col">
                 <div className="row item">
                     <div className="twelve columns">
@@ -25,12 +26,8 @@ export default  class Resume extends Component {
                     </div>
                 </div>
             </div>
-
-
-            <div className="nine columns main-col">
-             
-            </div>
          </div>
+
         <div className="row work">
             <div className="three columns header-col">
                <h1>Work</h1>
@@ -49,6 +46,7 @@ export default  class Resume extends Component {
                     </p>
                     </div>
                 </div>
+
                 <div className="row item">
                     <div className="twelve columns">
                       <h3>The Capital Grille</h3>
@@ -59,9 +57,7 @@ export default  class Resume extends Component {
                         Customer Service
                       </p>
                     </div>
-                </div>
-                
-             
+                </div>              
             </div> 
          </div>
 
@@ -69,34 +65,23 @@ export default  class Resume extends Component {
          <div className="row skill">
 
             <div className="three columns header-col">
-               <h1>Skills</h1>
+              <h1>Skills</h1>
             </div>
 
             <div className="nine columns main-col">
-
-            <div className="row item">
+                <div className="row item">
                     <div className="twelve columns">
                       
-                    <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}} icon={['fab', 'react']} /> 
-                    <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'html5']} />
-                    <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'css3']} />
-                    <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'js']} />
-                    <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'node-js']} />
+                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}} icon={['fab', 'react']} /> 
+                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'html5']} />
+                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'css3']} />
+                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'js']} />
+                      <FontAwesomeIcon style={{margin: "15px", fontSize:"100px"}}icon={['fab', 'node-js']} />
+
                     </div>
                 </div>
-
-   				<div className="bars">
-
-   				   <ul className="skills">
-                
-
-   					</ul>
-
-   				</div>
-
-   			</div>
-
-         </div>
+            </div>
+        </div>
 
       </section>
     );

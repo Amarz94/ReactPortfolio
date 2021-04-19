@@ -6,6 +6,8 @@ export default class Header extends Component {
       
       <header id="home">
          <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
@@ -17,7 +19,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">Alexander Marzullo </h1>
-               <h2>Software Developer</h2>
+               <h2 style={{fontWeight:"bold"}}>Software Developer</h2>
                   <ul className="social">
                       <li>
                       <a class="fa fa-linkedin" href="https://www.linkedin.com/in/alexander-marzullo-50a6111b5/"></a>
