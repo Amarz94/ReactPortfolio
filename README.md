@@ -2,30 +2,23 @@
 
 ## Deployed Link
 
-[Fitness Tracker](https://frozen-shelf-54318.herokuapp.com/)
+[React Portfolio](https://amarz94.github.io/ReactPortfolio/)
 
 ## Demo
 
-![](public/images/Demoimage.JPG)
+![](/portdemo.gif)
 
-
-## Installation
+## Description
+A react.js app that deploys my person portfolio. My portfolio consists on an About me with contact information, a resume component that shows a small portion of my resume, plus a link to the PDF file. It also includes projects from github that I have worked on with working links, as well as links to my LinkedIn and Github profiles.
 
 #### Programs needed
 * NodeJS
-* MongoDB
+* ReactJS
+* JQuery
 
-## Clone into system
-
-```bash
-git clone git@github.com:Amarz94/FitnessTracker.git
-cd FitnessTracker
-npm install
-npm start
-```
 
 ## Useage
-When user loads the page, they are given the option to create a new workout if they havent already made one. They can add either cardio / resistance workouts with own data structures.
+The page loads into the Header page with my name and title. I used react.fragment to have each component on a scrolling page.
 
 
 # Authors
