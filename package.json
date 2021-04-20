@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amarz94.github.io/reactportfolio",
+  "homepage": "https://amarz94.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -16,7 +16,11 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+<<<<<<< HEAD
    "deploy": "gh-pages -d build",
+=======
+    "deploy": "gh-pages -b master -d build",
+>>>>>>> parent of 838d29ec... Updates
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
