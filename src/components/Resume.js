@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faFileDownload} from '@fortawesome/free-solid-svg-icons'
+import resPDF from "./docs/resume.pdf";
 
 
 export default  class Resume extends Component {
@@ -11,7 +13,9 @@ export default  class Resume extends Component {
       <section id="resume">
 
          <div className="row education">
-           
+            <div style={{fontWeight: "bold", textAlign: "center", marginBottom:"50px"}}>
+                    <h1 style={{fontSize:"40px"}}>Resume</h1>
+                    <a href={resPDF}> <FontAwesomeIcon style={{fontSize:"35px", color:"turquoise"}} icon={faFileDownload} /></a></div>
             <div className="three columns header-col">
                <h1 style={{fontWeight: "bold", fontSize: "25px"}}><span>Education</span></h1>
             </div>
