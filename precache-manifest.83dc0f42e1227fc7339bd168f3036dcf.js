@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/reactportfolio/static/media/fitness.6930ee20.jpg"
   },
   {
-    "revision": "0c1e1d102f9892c11aab869f6fb25de7",
+    "revision": "6a506659bba4e003b3424907a4eb78ce",
     "url": "/reactportfolio/index.html"
   }
 ];
